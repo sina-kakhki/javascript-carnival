@@ -32,9 +32,10 @@ function checkKey (e) {
     var head = document.getElementById("head")
     var body = document.getElementById("body")
     var shoes = document.getElementById("shoes")
+    var arrow = document.getElementById("arrow")
 
-    var imgs = [head, body, shoes]
-    var strings = ["head", "body", "shoes"]
+    var imgs = [head, body, shoes, arrow]
+    var strings = ["head", "body", "shoes", "arrow"]
 
     //shift is the input direction of the arrow buttons
     function changeLooks (shift) {
@@ -53,16 +54,18 @@ function checkKey (e) {
         
       indexes[verticalIndex] = index
 
-      image.src = "./images/" + str + index + ".png"       
+      image.src = "./images/" + str + index + ".png"  
     }
     
     //this function selects which part of the body we're looking at
     function selectParts (shift) {
-        verticalIndex += shift
+        verticalIndex += shift       
 
         if (verticalIndex < 0 )
             verticalIndex = 2
           
         if (verticalIndex > 2)
-            verticalIndex = 0    
+            verticalIndex = 0 
+            
+            arrow.src = "./images/arrow" + verticalIndex + ".png"  
     }

@@ -10,6 +10,17 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
+p { 
+	margin-top: 50px;
+	margin-bottom: 35px;
+	font-size: 1em;
+	text-align: center;
+}
+
 table {
   margin-right: center;
   margin-left: center;
@@ -65,3 +76,16 @@ td {
   height: 75px;
   width: 75px;
 }
+
+img {
+  height: 75px;
+  width: 75px;
+  }
+
+  .scoreDisplay {
+  margin-top: 50px;
+  }
+
+  .buttonContainer {
+  text-align: center;
+  }
