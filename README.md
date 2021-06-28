@@ -11,13 +11,13 @@ Enjoy!
 ## User interface
 
 Whack A Mole!
-------------------------------------
+------------------------------------|
 ![Whack-A-Mole](docs/whackaMole.PNG)
 
 Dress the Clown
-------------------------------------
+------------------------------------|
 ![DressTheClown](docs/dressTheClown.PNG)
 
 Inflate the Unicorn
-------------------------------------
+------------------------------------|
 ![InflateTheUnicorn](docs/inflateTheUnicorn.PNG)
